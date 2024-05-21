@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Pie
   - Plate
+  - CylinderPart
+  - SafePart
+  - UnsafePart
+  - LastArea
+  - LastPart
   layers:
   - Default
   - TransparentFX
