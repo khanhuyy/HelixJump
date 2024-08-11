@@ -6,9 +6,17 @@ public class HelixManager : MonoBehaviour
 {
     public GameObject[] rings;
 
-    public int noOfRings;
+    private int noOfRings;
     public float ringDistance = 5f;
     float yPos;
+
+    private void Awake()
+    {
+        noOfRings = 5;
+    }
+    public int GetTotalRings() {
+        return noOfRings;
+    }
 
     // Start is called before the first frame update
     private void Start()
