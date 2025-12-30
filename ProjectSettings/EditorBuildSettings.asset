@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Campaign.unity
+    guid: 0fb9a2d522e57994dae6b43e91643ead
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
