@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2025-12-30T05:13:19Z
+Date:                    2026-01-02T17:27:36Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khanhhuypham" at "2025-12-30T05:13:19.684321Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khanhhuypham" at "2026-01-02T17:27:36.907213Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52616
+56134
 -licensingIpc
 LicenseClient-khanhhuypham
 -job-worker-count
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/khanhhuypham/Documents/project/unit
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8277772288]  Target information:
+Player connection [8791197696]  Target information:
 
-Player connection [8277772288]  * "[IP] 192.168.1.19 [Port] 0 [Flags] 2 [Guid] 4100679141 [EditorId] 4100679141 [Version] 1048832 [Id] OSXEditor(0,Khanhs-Mac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8791197696]  * "[IP] 192.168.1.19 [Port] 0 [Flags] 2 [Guid] 4046414645 [EditorId] 4046414645 [Version] 1048832 [Id] OSXEditor(0,Khanhs-Mac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8277772288] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8277772288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8791197696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8791197696] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -90,21 +90,21 @@ Library Redirect Path: Library/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              7a76c51b62ca40dfbd391395578faef4
-  Correlation Id:          33a7ab2a7e2d4414bfb30d25bf775974
-  External correlation Id: 8724054729298656379
+  Session Id:              8793250cffeb4c79b6d483c940537e66
+  Correlation Id:          d320422c7c4885e3004fa62fd803fbe5
+  External correlation Id: 8391662417807778999
   Machine Id:              yWO1fNr7BdxlZKIMxmOH4GiL0qk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-khanhhuypham" (connect: 0.00s, validation: 0.00s, handshake: 0.47s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khanhhuypham-notifications" at "2025-12-30T05:13:20.151218Z"
-[Licensing::Module] Licensing Background thread has ended after 0.47s
-[Licensing::Module] Licensing is initialized (took 0.23s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-khanhhuypham" (connect: 0.00s, validation: 0.00s, handshake: 0.35s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khanhhuypham-notifications" at "2026-01-02T17:27:37.25991Z"
+[Licensing::Module] Licensing Background thread has ended after 0.35s
+[Licensing::Module] Licensing is initialized (took 0.13s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18967538186771-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 3.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/Resources/UnitySubsystems
@@ -125,46 +125,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56391
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56751
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1-arm64/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.000473 seconds.
-- Loaded All Assemblies, in  0.209 seconds
+Registered in 0.000508 seconds.
+- Loaded All Assemblies, in  0.233 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 61 ms
+Android Extension - Scanning For ADB Devices 76 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.361 seconds
-Domain Reload Profiling: 570ms
-	BeginReloadAssembly (61ms)
+- Finished resetting the current domain, in  0.381 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (60ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (68ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (361ms)
+	FinalizeReload (381ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (331ms)
+		SetupLoadedEditorAssemblies (353ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (136ms)
+			InitializePlatformSupportModulesInManaged (158ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -175,8 +175,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.401 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.417 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -187,35 +187,35 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-BelixJumpBV
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.482 seconds
-Domain Reload Profiling: 883ms
-	BeginReloadAssembly (71ms)
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 952ms
+	BeginReloadAssembly (78ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (19ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (286ms)
-		LoadAssemblies (176ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (174ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (141ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (97ms)
-			BuildScriptInfoCaches (20ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (22ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (482ms)
+	FinalizeReload (535ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (351ms)
+		SetupLoadedEditorAssemblies (384ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (210ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -228,154 +228,18 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1-arm64/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6303 unused Assets / (5.4 MB). Loaded Objects now: 7137.
-Memory consumption went from 167.4 MB to 162.0 MB.
-Total: 6.015291 ms (FindLiveObjects: 0.408875 ms CreateObjectMapping: 0.121000 ms MarkObjects: 4.323458 ms  DeleteObjects: 1.161750 ms)
+Unloading 6303 unused Assets / (5.2 MB). Loaded Objects now: 7137.
+Memory consumption went from 167.6 MB to 162.4 MB.
+Total: 6.796625 ms (FindLiveObjects: 0.391750 ms CreateObjectMapping: 0.171625 ms MarkObjects: 4.581125 ms  DeleteObjects: 1.651875 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 77661.348884 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '73c5932393b04cdb6073b165d04dc60f') in 0.050459167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Materials/NonPhysic/Black.mat
-  artifactKey: Guid(7b717e91c56a080a9bf61ecdd937befd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Materials/NonPhysic/Black.mat using Guid(7b717e91c56a080a9bf61ecdd937befd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c398053e0cdb2da64aa3c4dc6244149e') in 0.005618875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Settings/Ultra_PipelineAsset.asset
-  artifactKey: Guid(b743fc37bb9136f4780282dbd8df9697) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Settings/Ultra_PipelineAsset.asset using Guid(b743fc37bb9136f4780282dbd8df9697) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7c229768e8c55c36b92ca271cd8449cf') in 0.017001209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Resources/PerformanceTestRunInfo.json
-  artifactKey: Guid(7d9fa8d90f057411f86851012dc91f46) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Resources/PerformanceTestRunInfo.json using Guid(7d9fa8d90f057411f86851012dc91f46) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7de57904f653ab21fc392f605d8a97cc') in 0.001168166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/_Recovery
-  artifactKey: Guid(988feab67c4e943d19555f7e1512ab8a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/_Recovery using Guid(988feab67c4e943d19555f7e1512ab8a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8b567acbc7f9c33ca76be09913f65467') in 0.001132541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
+  Time since last request: 288209.809537 seconds.
   path: Assets/Resources/PerformanceTestRunSettings.json
-  artifactKey: Guid(1b48d9cef85a5488fbcc33e40b1fba1c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Resources/PerformanceTestRunSettings.json using Guid(1b48d9cef85a5488fbcc33e40b1fba1c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '782a8dc683b9b8e757eac221abe1ed44') in 0.001136708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(5d0034e96b9044904a74d1293ca78d33) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Resources using Guid(5d0034e96b9044904a74d1293ca78d33) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'cc25fb67b9a5b68eeb50b06a87399863') in 0.001069667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Settings/Very Low_PipelineAsset.asset
-  artifactKey: Guid(d1782781c3ce1fc49a8b045519a75de6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Settings/Very Low_PipelineAsset.asset using Guid(d1782781c3ce1fc49a8b045519a75de6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1cfb0e3eab75aaa7415ba49125908238') in 0.0052655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Settings/High_PipelineAsset.asset
-  artifactKey: Guid(f696b2260e64b2a41806f0357afa5109) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Settings/High_PipelineAsset.asset using Guid(f696b2260e64b2a41806f0357afa5109) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '65cfd87eac6937ee5bfffff4bdbfe0b0') in 0.004107084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Materials/NonPhysic/Yellow.mat
-  artifactKey: Guid(a91835e84d29b7b49a336b59c5ff3652) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Materials/NonPhysic/Yellow.mat using Guid(a91835e84d29b7b49a336b59c5ff3652) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd9fc8e7a8ab66ec88531eed83f41781b') in 0.001822792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Settings/Medium_PipelineAsset.asset
-  artifactKey: Guid(dc885baecf2231b4dbdc3c4f3785c60d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Settings/Medium_PipelineAsset.asset using Guid(dc885baecf2231b4dbdc3c4f3785c60d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b0b045277f2024c5100a02381f9f8a20') in 0.004133125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Materials/NonPhysic/LightWhite.mat
-  artifactKey: Guid(dbc1e6d24065b6c469c983fd9ded0d6a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Materials/NonPhysic/LightWhite.mat using Guid(dbc1e6d24065b6c469c983fd9ded0d6a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '32b86871f73fd45a7b0ba02f129848d5') in 0.001755625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Materials/NonPhysic/Splash.mat
-  artifactKey: Guid(396eef0b2412f8342b22bb8a5418816b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Materials/NonPhysic/Splash.mat using Guid(396eef0b2412f8342b22bb8a5418816b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4b513b44748c791874b7426a618ec777') in 0.003369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Settings/Very High_PipelineAsset.asset
-  artifactKey: Guid(6c48fdf80871e9f44a11b3953001e501) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Settings/Very High_PipelineAsset.asset using Guid(6c48fdf80871e9f44a11b3953001e501) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b0a794c1772f4399d4532e08f281a9a9') in 0.004490583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Scenes/Campaign.unity
-  artifactKey: Guid(0fb9a2d522e57994dae6b43e91643ead) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Scenes/Campaign.unity using Guid(0fb9a2d522e57994dae6b43e91643ead) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '21388e3d919e887142ce856f32756f7b') in 0.001051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Art/Build/unnamed.jpg
-  artifactKey: Guid(66ecf5f1c67b44245b11c413f4179c88) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Art/Build/unnamed.jpg using Guid(66ecf5f1c67b44245b11c413f4179c88) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e00237d8f6d15f2403b32a9c4c8b37c4') in 0.013150584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/_Recovery/0.unity
-  artifactKey: Guid(895c9733480624fa9a94d14b424a733b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/_Recovery/0.unity using Guid(895c9733480624fa9a94d14b424a733b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e786438843d4b68e42971922ab203781') in 0.001190458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Art/Build
-  artifactKey: Guid(6c49f846d0f08418fae049bdff4d19d0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/Art/Build using Guid(6c49f846d0f08418fae049bdff4d19d0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '54e8e77c1e5a8a02f5359ffe8e3f8ef7') in 0.000992666 seconds
+  artifactKey: Guid(05caa358947c849d48317b1e3ea3874e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Resources/PerformanceTestRunSettings.json using Guid(05caa358947c849d48317b1e3ea3874e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4f0165758e23ccbafe08e7ffa9deabea') in 0.021429292 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

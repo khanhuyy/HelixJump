@@ -1,0 +1,5 @@
+/Users/khanhhuypham/Documents/project/unity/HelixJump/.utmp/RelWithDebInfo/5a5s4k66/x86_64/CMakeFiles/edit_cache.dir
+/Users/khanhhuypham/Documents/project/unity/HelixJump/.utmp/RelWithDebInfo/5a5s4k66/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/khanhhuypham/Documents/project/unity/HelixJump/.utmp/RelWithDebInfo/5a5s4k66/x86_64/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/khanhhuypham/Documents/project/unity/HelixJump/.utmp/RelWithDebInfo/5a5s4k66/x86_64/FramePacing/CMakeFiles/edit_cache.dir
+/Users/khanhhuypham/Documents/project/unity/HelixJump/.utmp/RelWithDebInfo/5a5s4k66/x86_64/FramePacing/CMakeFiles/rebuild_cache.dir
